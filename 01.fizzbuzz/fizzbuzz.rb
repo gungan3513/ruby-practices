@@ -1,7 +1,5 @@
-numbers = [*1..20]
-
-numbers.each do |number|
-answer = ""
+[*1..20].each do |number|
+  answer = ""
   if number % 3 == 0
     answer = "Fizz"
   end
